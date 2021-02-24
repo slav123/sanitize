@@ -188,6 +188,7 @@ var transliterations = map[rune]string{'\u0041': "A", '\u24B6': "A", '\uFF21': "
 	'\u0225': "z", '\u0240': "z", '\u2C6C': "z", '\uA763': "z",
 }
 
+// main function to cleanup strings
 func Accents(s string) string {
 	// Replace some common accent characters
 	b := bytes.NewBufferString("")
