@@ -1,5 +1,5 @@
 # Sanitize
-==========
+=====================
 
 [![Go Report Card][goreport-svg]][goreport-link]
 [![License][license-svg]][license-link]

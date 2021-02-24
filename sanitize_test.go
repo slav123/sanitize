@@ -12,7 +12,7 @@ func TestStringToAsciiBytes(t *testing.T) {
 		wantResult string
 	}{
 		{"Test 1", args{"Sławomir Jasiński"}, "Slawomir Jasinski"},
-			{"Test 2", args{"Gżegżółka"}, "Gzegzolka"},
+		{"Test 2", args{"Gżegżółka"}, "Gzegzolka"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -22,4 +22,3 @@ func TestStringToAsciiBytes(t *testing.T) {
 		})
 	}
 }
-
