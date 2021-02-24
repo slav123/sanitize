@@ -1,5 +1,4 @@
 # Sanitize
-=====================
 
 [![Go Report Card][goreport-svg]][goreport-link]
 [![License][license-svg]][license-link]
@@ -8,20 +7,26 @@ Super simple function to clean up string from regional characters:
 
 Sławomir Jasiński -> Slawomir Jasinski
 
+## Installation
+
+```bash
+$ go get github.com/slav123/sanitize
+```
+
 ##Usage
 
-    package main
+```go
+package main
 
-    import (
-        "github.com/slav123/sanitize"
-        "fmt"
-    )
+import (
+   "github.com/slav123/sanitize"
+   "fmt"
+)
 
-    func main() {
-        fmt.Println(sanitize.Accents("gąska"))
-    }
-
-
+func main() {
+    fmt.Println(sanitize.Accents("gąska"))
+}
+```
 
 
 gives you
